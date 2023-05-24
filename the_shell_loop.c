@@ -1,7 +1,5 @@
 #include "shell.h"
 
-
-
 /**
  *hsh - the main c function of the our shell .
  *@info: Its a pointer to the structure of type info_t.

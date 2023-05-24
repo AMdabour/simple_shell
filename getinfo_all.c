@@ -1,8 +1,5 @@
 #include "shell.h"
 
-
-
-
 /**
  * set_info - function that Initializes info_t struct.
  * @INFO: ptr that points to Struct address
@@ -84,8 +81,6 @@ void free_info(info_t *INFO, int ALL)
 }
 
 
-
-#include "shell.h"
 /**
  *clear_info - function used to initializes info_t struct .
  *@INFO: ptr to struct address

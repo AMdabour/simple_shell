@@ -20,7 +20,7 @@ void find_cmd(info_t *info)
 	int z, t;
 
 
-	info->the_path  =  info->argv[0];
+	info->path  =  info->argv[0];
 	if (info->linecount_flag  ==  1)
 	{
 		info->line_count++;
@@ -41,7 +41,7 @@ void find_cmd(info_t *info)
 	the_path  =  find_path(info, _getenv(info, "PATH="), info->argv[0]);
 	if (the_path)
 	{
-		info->the_path = the_path;
+		info->path = the_path;
 		fork_cmd(info);
 	}
 

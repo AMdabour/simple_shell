@@ -1,4 +1,4 @@
-#inlude "shell.h"
+#include "shell.h"
 
 
 /**
@@ -70,7 +70,8 @@ int _myalias(info_t *INFO)
 
 		else
 		{
-		print_alias(node_starts_with(INFO->alias, INFO->argv[i], '='));
+			print_alias(node_starts_with(INFO->alias,
+				INFO->argv[i], '='));
 		}
 	}
 

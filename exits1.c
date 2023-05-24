@@ -1,4 +1,4 @@
-#include "shell.c"
+#include "shell.h"
 
 /**
  * _strncat - function that Concatenates two strings.

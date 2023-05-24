@@ -1,4 +1,4 @@
-#inlcude "shell.h"
+#include "shell.h"
 
 /**
  *_mycd - function thatchanges the current directory of the process
@@ -21,7 +21,7 @@ int _mycd(info_t *INFO)
 	{
 		DIR = _getenv(INFO, "HOME=");
 		if (!DIR)
-			chdir_ret = /*: what should this be? */
+			CHDIR_RET = /*: what should this be? */
 			chdir((DIR = _getenv(INFO, "PWD=")) ? DIR : "/");
 		else
 			CHDIR_RET = chdir(DIR);
