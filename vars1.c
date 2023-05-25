@@ -5,7 +5,7 @@
  *is_chain - Determines the type of command chaining .
  * .
  *
- * @my_ifo: a Pointer to the info_t structure .
+ * @my_info: a Pointer to the info_t structure .
  * @mybuffer:  a Pointer to the buffer containing the command .
  * @myindex:    a Pointer to the index in the buffer .
  *
